@@ -68,20 +68,21 @@ TAMPILKAN "Berhasil masuk antrean"
 
 JIKA pilih 2:
 JIKA antrean kosong:
-TAMPILKAN "Antrean kosong"
+TAMPILKAN "[!] Antrean Kosong! Tidak ada yang bisa dilayani."
 JIKA tidak:
 AMBIL orang paling depan dari antrean
 TAMPILKAN "Tiket diberikan ke (nama)"
 
 JIKA pilih 3:
 JIKA antrean kosong:
-TAMPILKAN "Antrean kosong"
+TAMPILKAN "[INFO] Antrean saat ini kosong."
 JIKA tidak:
 TAMPILKAN orang paling depan
 
 JIKA pilih 4:
 JIKA antrean kosong:
-TAMPILKAN "Belum ada antrean"
+TAMPILKAN "Belum ada orang di dalam antrean.
+"
 JIKA tidak:
 TAMPILKAN semua isi antrean dari depan ke belakang
 
