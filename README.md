@@ -12,7 +12,7 @@ Bagaimana sistem dapat mengatasi keterbatasan kapasitas antrean agar tidak terja
 Solusi : 
 Sistem menyediakan metode is_full() dan is_empty() sebagai mekanisme validasi sebelum melakukan operasi utama. Jika antrean penuh, sistem akan menolak penambahan data dan memberikan notifikasi kepada pengguna. Sebaliknya, jika antrean kosong, sistem juga mencegah proses pengambilan data. Pendekatan ini memastikan integritas data tetap terjaga dan mencegah error saat program dijalankan.
 
-2. Rumusan Masalah 2 :
+3. Rumusan Masalah 2 :
 Bagaimana meningkatkan efisiensi penggunaan memori dalam implementasi antrean menggunakan array?
 
 Solusi : 
