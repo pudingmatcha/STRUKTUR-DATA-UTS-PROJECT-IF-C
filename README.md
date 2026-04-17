@@ -30,7 +30,7 @@ Bagaimana sistem dapat memberikan pengalaman pengguna yang informatif dalam pros
 Solusi : 
 Sistem dilengkapi dengan output pesan yang jelas pada setiap operasi, seperti notifikasi saat antrean penuh, kosong, maupun saat transaksi berhasil dilakukan. Hal ini membantu pengguna memahami kondisi sistem tanpa kebingungan.
 
-### Landasan Teori 
+### 2. Landasan Teori 
 Struktur data adalah cara mengorganisasi dan menyimpan data di dalam komputer agar dapat diakses dan diproses secara efisien. Dalam ilmu Ilmu Komputer, pemilihan struktur data yang tepat sangat berpengaruh terhadap kinerja algoritma, terutama dalam hal kompleksitas waktu dan ruang. Menurut Introduction to Algorithms, struktur data tidak hanya berfungsi sebagai tempat penyimpanan, tetapi juga menentukan bagaimana operasi seperti pencarian, penyisipan, dan penghapusan dilakukan secara optimal.
 
 Salah satu konsep penting dalam struktur data adalah queue dan stack. Queue adalah struktur data yang bekerja seperti antrian, di mana elemen ditambahkan dari belakang (rear) dan dihapus dari depan (front). Sebaliknya, stack bekerja seperti tumpukan, di mana elemen ditambahkan dan dihapus dari satu sisi saja, yaitu bagian atas (top). Konsep ini banyak digunakan dalam berbagai aplikasi, seperti manajemen proses, undo-redo pada aplikasi, dan evaluasi ekspresi matematika (Weiss, 2013).
@@ -39,7 +39,7 @@ Konsep dasar yang mendasari queue dan stack adalah FIFO (First In First Out) dan
 
 Implementasi queue dan stack dapat dilakukan menggunakan array maupun linked list. Pada array, struktur dibuat dengan ukuran tetap sehingga lebih sederhana tetapi kurang fleksibel jika data bertambah. Sedangkan pada linked list, struktur bersifat dinamis karena menggunakan node yang saling terhubung, sehingga lebih fleksibel dalam penggunaan memori. Berdasarkan penelitian dalam Journal of Computer Science and Information Systems, pemilihan antara array dan linked list biasanya disesuaikan dengan kebutuhan aplikasi, terutama terkait efisiensi memori dan kecepatan akses data.
 
-### Desain Sistem dan Implementasi
+### 3. Desain Sistem dan Implementasi
 Pseudocode dari sistem tersebut adalah 
 
 MULAI PROGRAM
@@ -95,7 +95,7 @@ TAMPILKAN "Pilihan tidak valid"
 SELESAI
 
 
-### Kesimpulan
+### 4. Kesimpulan
 Kesimpulan dari hasil implementasi sistem antrean tiket konser ini adalah bahwa rumusan masalah yang dibuat sebelumnya sudah cukup terjawab. Sistem mampu mengatur antrean pembeli dengan urut, bisa mendeteksi ketika antrean penuh atau kosong, dan juga bisa menampilkan data antrean dengan jelas. Jadi, secara umum program sudah berjalan sesuai dengan tujuan yang diharapkan.
 
 Dari segi teori, sistem ini sudah sesuai dengan konsep dasar struktur data queue yang menggunakan prinsip FIFO (First In First Out), yaitu yang datang duluan akan dilayani duluan. Selain itu, penggunaan circular queue juga membantu supaya memori lebih efisien, karena slot yang kosong bisa dipakai lagi tanpa harus menambah kapasitas baru. Jadi bisa dibilang implementasi program ini sudah sesuai dengan teori yang dipelajari.
