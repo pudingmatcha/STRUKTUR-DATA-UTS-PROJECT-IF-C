@@ -47,4 +47,45 @@ class AntreanTiketKonser:
                 print("[{}] {}".format(i+1, self.queue[current]))
                 current = (current + 1) % self.kapasitas
             print("=============================")
+def menu():
+    try:
+        kapasitas = int(input("Masukkan kapasitas maksimal antrean: "))
+    except ValueError:
+        print("Input tidak valid. Gunakan angka.")
+        return
+
+    sistem = AntreanTiketKonser(kapasitas)
+
+    while True:
+        print("\n--- MENU SISTEM TIKET ---")
+        print("1. Tambah Antrean (Enqueue)")
+        print("2. Layani Pembeli (Dequeue)")
+        print("3. Lihat Orang Terdepan (Peek)")
+        print("4. Tampilkan Semua Antrean (Display)")
+        print("5. Keluar")
+
+        pilihan = input("Pilih menu (1-5): ")
+
+        if pilihan == '1':
+            nama = input("Masukkan nama pembeli: ")
+            sistem.enqueue(nama)
+
+        elif pilihan == '2':
+            sistem.dequeue()
+
+        elif pilihan == '3':
+            sistem.peek()
+
+        elif pilihan == '4':
+            sistem.display()
+
+        elif pilihan == '5':
+            print("Terima kasih! Program selesai.")
+            break
+
+        else:
+            print("Pilihan tidak valid, coba lagi.")
+
+
+menu()
 
