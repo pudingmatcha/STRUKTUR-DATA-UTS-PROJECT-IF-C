@@ -101,12 +101,9 @@ Kesimpulan dari hasil implementasi sistem antrean tiket konser ini adalah bahwa 
 
 Dari segi teori, sistem ini sudah sesuai dengan konsep dasar struktur data queue yang menggunakan prinsip FIFO (First In First Out), yaitu yang datang duluan akan dilayani duluan. Selain itu, penggunaan circular queue juga membantu supaya memori lebih efisien, karena slot yang kosong bisa dipakai lagi tanpa harus menambah kapasitas baru. Jadi bisa dibilang implementasi program ini sudah sesuai dengan teori yang dipelajari.
 
-
-### PPT
-https://canva.link/u76bxqtc3re7xlx
-
 Manfaat penggunaan queue pada kasus ini cukup terasa, karena sistem antrean jadi lebih rapi, adil, dan mudah dikelola. Setiap pembeli tidak bisa menyerobot antrean dan semua berjalan sesuai urutan. Walaupun stack tidak digunakan langsung di program ini, konsepnya tetap penting untuk dipahami karena digunakan di kasus lain. Dari sini bisa disimpulkan bahwa struktur data seperti queue sangat membantu dalam membuat sistem yang teratur dan efisien, terutama untuk kasus antrean seperti ini.
 
 
-
+## PPT
+https://canva.link/u76bxqtc3re7xlx
 
