@@ -94,6 +94,9 @@ JIKA pilihan salah:
 TAMPILKAN "Pilihan tidak valid"
 
 SELESAI
+<p align="center">
+  <img src="https://github.com/pudingmatcha/Srukturdata-kelas-c-informatika/blob/main/gambar/Screenshot%202026-03-23%20140235.png" width="750">
+</p>
 
 
 ### 4. Kesimpulan
