@@ -95,7 +95,7 @@ TAMPILKAN "Pilihan tidak valid"
 
 SELESAI
 <p align="center">
-  <img src="https://github.com/pudingmatcha/STRUKTUR-DATA-UTS-PROJECT-IF-C/blob/main/PROJECT/WhatsApp%20Image%202026-04-23%20at%2022.03.53.jpeg" width="750">
+  <img src="https://github.com/pudingmatcha/STRUKTUR-DATA-UTS-PROJECT-IF-C/blob/main/png/WhatsApp%20Image%202026-04-23%20at%2022.03.53.jpeg" width="750">
 </p>
 
 
